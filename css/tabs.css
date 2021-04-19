@@ -192,7 +192,7 @@
     }
 
     .tab-content__item{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .tab-descr{
@@ -210,36 +210,4 @@
     html{
         font-size: 12px;
     }
-/* 
-    .tabs{
-        min-height: 750px;
-    }
-
-    .tab-block{
-        flex-direction: row;
-        margin-bottom: 50px;
-    }
-
-    .tab{
-        margin: 0 10px 0 10px;
-    }
-    .tab-row{
-        flex-wrap: wrap;
-    }
-    .tab-content{
-        margin-left: 0;
-    }
-
-    .tab-content__item{
-        flex-direction: column;
-    }
-
-    .tab-descr{
-        margin-bottom: 50px;
-        margin-left: 0;
-    }
-
-    .tab-img{
-        margin-left: 0;
-    } */
 }
