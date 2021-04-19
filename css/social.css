@@ -1,0 +1,152 @@
+.social{
+    padding: 15px 0;
+    background-color: #F8EFEF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.social-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.social__descr, .social-group{
+    margin: 0 15px;
+}
+
+.social__descr{
+    width: 40%;
+}
+
+.social-group{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 1.68rem;
+    color: #333333;
+    margin-bottom: 14px;
+}
+
+.social__text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.19rem;
+    color: #86878B;
+}
+
+.social-group__item{
+   margin-left: 3.4rem;
+}
+
+.social-group__item:first-child{
+    margin-left: 0;
+}
+
+.fab{
+    font-size: 2.7rem;
+}
+
+.fas{
+    font-family: "Font Awesome 5 Free";
+    font-size: 2.7rem;
+}
+
+.social-group__link{
+    color: #86878B;
+    transition: all ease 0.5s;
+    text-shadow: 0px 0px 1px black, 0px 0px 1px black;
+    transform: rotateX(-30deg);
+}
+
+.social-group__link:hover{
+    transform: rotateX(-30deg) translateY(-20px);
+}
+
+.social-group__link:hover.facebook {
+    color: #385a9b;
+    text-shadow: 0px 0px 0px #365899,0px 1px 2px #2f4d86,0px 2px 2px #294273,0px 3px 2px #223760,0px 4px 2px #1b2d4e,0px 5px 2px #15223b,0px 6px 2px #0e1728,0px 7px 2px #070c15,0px 8px 2px #010102,0px 9px 2px black,0px 10px 2px black;
+}
+
+.social-group__link:hover.twitter {
+    color: #1da1f2;
+    text-shadow: 0px 0px 0px #1DA1F2,0px 1px 2px #0d95e8,0px 2px 2px #0c85d0,0px 3px 2px #0b76b8,0px 4px 2px #0967a0,0px 5px 2px #085788,0px 6px 2px #064870,0px 7px 2px #053857,0px 8px 2px #04293f,0px 9px 2px #021927,0px 10px 2px #010a0f;
+}
+
+.social-group__link:hover.googlePlus{
+    color: #db4437;
+    text-shadow: 0px 0px 0px #DB4437,0px 1px 2px #d33426,0px 2px 2px #bd2e22,0px 3px 2px #a7291e,0px 4px 2px #92241a,0px 5px 2px #7c1e16,0px 6px 2px #671912,0px 7px 2px #51140f,0px 8px 2px #3b0f0b,0px 9px 2px #260907,0px 10px 2px #100403;
+}
+
+.social-group__link:hover.pinterest{
+    color: #a01e12;
+    text-shadow: 0px 0px 0px #DB4437,0px 1px 2px #d33426,0px 2px 2px #bd2e22,0px 3px 2px #a7291e,0px 4px 2px #92241a,0px 5px 2px #7c1e16,0px 6px 2px #671912,0px 7px 2px #51140f,0px 8px 2px #3b0f0b,0px 9px 2px #260907,0px 10px 2px #100403;
+}
+
+.social-group__link:hover.instagram {
+    color: #c32aa3;
+    text-shadow: 0px 0px 0px #C32AA3,0px 1px 2px #ae2591,0px 2px 2px #992180,0px 3px 2px #841c6e,0px 4px 2px #6f185d,0px 5px 2px #5a134b,0px 6px 2px #450f3a,0px 7px 2px #300a28,0px 8px 2px #1b0617,0px 9px 2px #060105,0px 10px 2px black;
+}
+
+.social-group__link:hover.stumbleupon{
+    color: #eb7c72;
+    text-shadow: 0px 0px 0px #DB4437,0px 1px 2px #d33426,0px 2px 2px #bd2e22,0px 3px 2px #a7291e,0px 4px 2px #92241a,0px 5px 2px #7c1e16,0px 6px 2px #671912,0px 7px 2px #51140f,0px 8px 2px #3b0f0b,0px 9px 2px #260907,0px 10px 2px #100403;
+}
+
+.social-group__link:hover.wifi {
+    color: #42adf0;
+    text-shadow: 0px 0px 0px #1DA1F2,0px 1px 2px #0d95e8,0px 2px 2px #0c85d0,0px 3px 2px #0b76b8,0px 4px 2px #0967a0,0px 5px 2px #085788,0px 6px 2px #064870,0px 7px 2px #053857,0px 8px 2px #04293f,0px 9px 2px #021927,0px 10px 2px #010a0f;
+}
+
+@media screen and (max-width: 1200px){
+    .social-row{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .social-group{
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .social__descr{
+        margin-left: 0;
+        text-align: center;
+        width: 80%;
+    }
+}
+
+ 
+@media screen and (max-width: 768px){
+    html{
+        font-size: 14px;
+    }
+ }
+
+ @media screen and (max-width: 544px){
+    html{
+        font-size: 12px;
+    }
+
+    .social-group{
+        flex-wrap: wrap;
+        margin: 15px;
+        width: 90%;
+     }
+    .social-group__item{
+        margin-bottom: 15px;
+    } 
+
+    .fas{
+        margin-top: 0;
+    }
+ }
