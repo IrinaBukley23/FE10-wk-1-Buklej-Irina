@@ -66,13 +66,41 @@
 @media screen and (max-width: 1200px){
     .prising__card{
         margin-top: 50px;
+        width: 45%;
     }
  }
 
- 
- @media screen and (max-width: 544px){
-    html{
-        font-size: 12px;
+ @media screen and (max-width: 992px){
+    .prising-card{
+        width: 42%;
+        flex-grow: 0;
+        margin-top: 50px;
     }
 
+    .prising-card:last-child{
+        margin-top: 50px;
+        width: 45%;
+    }
+ }
+
+
+ @media screen and (max-width: 768px){
+     html{
+         font-size: 14px;
+     }
+    .prising__card{
+        width: 72%;
+    }
+ }
+ 
+ @media screen and (max-width: 600px){
+    .pricing{
+        margin-top: 70px;
+    }
+    .prising__block{
+        margin-top: 0;
+    }
+    .prising__card{
+        width: 72%;
+    }
  }

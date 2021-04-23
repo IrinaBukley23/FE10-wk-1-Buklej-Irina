@@ -110,27 +110,35 @@
     transition: all 0.3s ease-out;
   }
 
-  
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1200px){
     .personal-block{
         padding: 0 25px;
     }
-
     .text-block{
         padding: 0 25px;
     }
  }
 
- 
-@media screen and (max-width: 544px){
-    html{
-        font-size: 12px;
-    }
+  @media screen and (max-width: 900px){
     .contact-row{
         flex-wrap: wrap;
     }
-
     .personal-block{
         width: 90%;
     }
+    .text-block{
+        width: 90%;
+        margin-top: 50px;
+    } 
+    .contact-form__btn{
+        width: 72%;
+    }
+  }
+
+  
+@media screen and (max-width: 768px){
+    html{
+        font-size: 14px;
+    }
+    
  }

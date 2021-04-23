@@ -93,11 +93,11 @@
     color: #86878B;
 }
 
-
 @media screen and (max-width: 992px){
     .review-card{
-        width: 45%;
+        width: 42%;
         flex-grow: 0;
+        margin-top: 50px;
     }
 
     .review-card:last-child{
@@ -107,6 +107,10 @@
  }
 
 @media screen and (max-width: 768px){
+
+    html{
+        font-size: 14px;
+    }
     
     .customers__block{
         flex-direction: column;
@@ -116,6 +120,11 @@
 
     .review-card{
         margin-top: 50px;
+        width: 72%;
+    }
+
+    .review-card:last-child{
+        width: 72%;
     }
 
     .review-card:first-child{
@@ -126,9 +135,8 @@
  
  @media screen and (max-width: 544px){
     html{
-        font-size: 12px;
+        font-size: 14px;
     }
-    
     .review-card{
         width: 90%;
     }

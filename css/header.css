@@ -75,40 +75,8 @@
     transform: scale(1, 1);
 }
 
-/* 320px, 544px, 768px, 992px, 1200px */
-
-@media screen and (max-width: 992px){
-    .header{
-        max-width: 1200px;
+@media screen and (max-width: 700px){
+    .menu{
+        display: none;
     }
-
-    .header__row{
-        max-width: 1200px;
-    }
-
-    .menu-list_item{
-        margin-left: 30px;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .header__row{
-        max-width: 768px;
-        flex-direction: column;
-        align-items: center;
-        justify-content: start;
-    }
-
-    .logo{
-        margin-bottom: 30px;
-    }
-}
-
-
- 
-@media screen and (max-width: 544px){
-    html{
-        font-size: 12px;
-    }
-
 }

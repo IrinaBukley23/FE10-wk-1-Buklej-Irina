@@ -1,10 +1,10 @@
 .awesome{
-    padding: 100px 0;
+    padding: 6.25rem 0;
     font-family: 'Open Sans', sans-serif;
 }
 
 .advantages{
-    margin: 67px -15px 0;
+    margin: 4rem -15px 0;
     display: flex;
     flex-basis: auto;
     justify-content: space-around;
@@ -15,7 +15,7 @@
 .advantages__block{
     text-align: center;
     margin: 0 15px;
-    width: 360px;
+    width: 30%;
 }
 
 .advantages__circle{
@@ -51,18 +51,45 @@
 @media screen and (max-width: 1200px){
    .advantages__block{
        margin-top: 50px;
+       width: 40%;
    }
 }
- 
- @media screen and (max-width: 544px){
-    html{
-        font-size: 12px;
-    }
 
-    .social-group{
-        flex-wrap: wrap;
+@media screen and (max-width: 900px){
+    .advantages__block{
+        width: 45%;
     }
-    .social-group__item{
-        margin-bottom: 15px;
+    .awesome{
+        padding: 5rem 0 5rem 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    html{
+        font-size: 14px;
+    }
+    .advantages__descr{
+        font-size: 14px;
+    }
+    .advantages{
+        margin-top: 0;
+    }
+    .advantages__block{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .advantages__block{
+        width: 72%;
+    }
+}
+
+ @media screen and (max-width: 544px){
+    .awesome{
+        padding: 0;
+    }
+    .advantages__block{
+        width: 72%;
     }
  }

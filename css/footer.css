@@ -95,8 +95,6 @@
     margin-right: 5px;
 }
 
-
- 
 @media screen and (max-width: 544px){
     html{
         font-size: 12px;
@@ -104,7 +102,10 @@
 
     footer-group.fas{
         justify-content: center;
-        margin-top: 15px;
+        margin-top: 1rem;
+    }
+    .footer-group__item{
+        margin-left: 1rem;
     }
  
  }

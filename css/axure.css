@@ -71,10 +71,15 @@
 }
 
 
- 
-@media screen and (max-width: 544px){
-    html{
-        font-size: 12px;
+@media screen and (max-width: 900px){
+    .axure-btn{
+        width: 72%;
+        text-align: center;
     }
-    
+  }
+ 
+@media screen and (max-width: 768px){
+    html{
+        font-size: 14px;
+    }
  }
